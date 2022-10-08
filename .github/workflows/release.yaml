@@ -40,5 +40,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
           file: "./build/libs/*.jar"
-          tags: true
+          tags: false
           draft: false
