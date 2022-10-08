@@ -2,8 +2,7 @@ name: Release binaries
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [ main ]
 jobs:
   build:
     name: Build and release binaries
